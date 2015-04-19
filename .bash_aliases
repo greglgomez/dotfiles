@@ -19,6 +19,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# Make some possibly destructive commands more interactive.
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+
 # Shortcuts to my Code folder in my home directory
 alias code="cd ~/code"
 alias dot="cd ~/code/dotfiles"
