@@ -21,7 +21,7 @@ alias .....="cd ../../../.."
 
 # Shortcuts to my Code folder in my home directory
 alias code="cd ~/code"
-alias sites="cd ~/code/sites"
+alias dot="cd ~/code/dotfiles"
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
