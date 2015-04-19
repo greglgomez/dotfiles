@@ -1,8 +1,7 @@
-### Aliases
+### Custom PATH entries
+# export PATH="<location-here>:$PATH"
 
-# Custom PATH entries
-
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Prompt Colors
@@ -75,4 +74,4 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 # init z! (https://github.com/rupa/z)
-. ~/code/z.sh
+. ~/code/z/z.sh
