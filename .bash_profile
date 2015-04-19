@@ -1,3 +1,6 @@
+### Load Aliases
+source ~/.bash_aliases
+
 ### Custom PATH entries
 # export PATH="<location-here>:$PATH"
 
