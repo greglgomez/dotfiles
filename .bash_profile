@@ -4,6 +4,9 @@ source ~/.bash_aliases
 ### Custom PATH entries
 # export PATH="<location-here>:$PATH"
 
+# Node/NPM
+export PATH="~/npm:$PATH"
+
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
