@@ -10,6 +10,9 @@ export PATH="~/npm:$PATH"
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+# Grunt auto-completion
+eval "$(grunt --completion=bash)"
+
 ### Prompt Colors
 # Modified version of @gf3’s Sexy Bash Prompt
 # (https://github.com/gf3/dotfiles)
