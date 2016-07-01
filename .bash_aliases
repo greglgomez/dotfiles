@@ -1,3 +1,6 @@
+# Start local urbit instance
+alias urb='bin/urbit nomtyl-litnup'
+
 # Open specified files in Sublime Text
 # "s ." will open the current directory in Sublime
 alias s='open -a "Sublime Text"'
