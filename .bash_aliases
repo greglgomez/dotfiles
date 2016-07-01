@@ -1,5 +1,5 @@
 # Start local urbit instance
-alias urb='bin/urbit nomtyl-litnup'
+alias urb='~/code/apps/urbit/bin/urbit nomtyl-litnup'
 
 # Open specified files in Sublime Text
 # "s ." will open the current directory in Sublime
