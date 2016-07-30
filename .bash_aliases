@@ -5,6 +5,8 @@ alias urb='~/code/apps/urbit/bin/urbit nomtyl-litnup'
 # "s ." will open the current directory in Sublime
 alias s='open -a "Sublime Text"'
 
+alias a='open -a "Atom"'
+
 # Show/Hide hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
