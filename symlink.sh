@@ -2,9 +2,9 @@
 #
 # symlinks all dotfiles to ~
 
-ln -s ~/code/dotfiles/.bash_aliases 	~/.bash_aliases
-ln -s ~/code/dotfiles/.bash_profile 	~/.bash_profile
-ln -s ~/code/dotfiles/.bashrc 			~/.bashrc
-ln -s ~/code/dotfiles/.gitconfig 		~/.gitconfig
-ln -s ~/code/dotfiles/.gitignore 		~/.gitignore
-ln -s ~/code/dotfiles/.hushlogin 		~/.hushlogin
+ln -s ~/Dev/_dotfiles/.bash_aliases 	~/.bash_aliases
+ln -s ~/Dev/_dotfiles/.bash_profile 	~/.bash_profile
+ln -s ~/Dev/_dotfiles/.bashrc 			~/.bashrc
+ln -s ~/Dev/_dotfiles/.gitconfig 		~/.gitconfig
+ln -s ~/Dev/_dotfiles/.gitignore 		~/.gitignore
+ln -s ~/Dev/_dotfiles/.hushlogin 		~/.hushlogin
