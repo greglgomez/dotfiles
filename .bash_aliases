@@ -1,11 +1,6 @@
-# Start local urbit instance
-alias urb='~/code/apps/urbit/bin/urbit nomtyl-litnup'
-
-# Open specified files in Sublime Text
-# "s ." will open the current directory in Sublime
-alias s='open -a "Sublime Text"'
-
-alias a='open -a "Atom"'
+# Open specified files in VS Code
+# "c ." will open the current directory in VS code
+alias c='open -a "Visual Studio Code"'
 
 # Show/Hide hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'

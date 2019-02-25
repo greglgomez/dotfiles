@@ -7,7 +7,9 @@ Elements and ideas taken from:
 - [holman does dotfiles](https://github.com/holman/dotfiles)
 
 # what do
-change the references in the first column of `symlink.sh` to wherever this project folder is. Then, execute the script with: `./symlink.sh` and finally `source ~/.bashrc` to reload your shell.
+- Change the references in the first column of `symlink.sh` to wherever this project folder is. - Make the script executable with `chmod +x filename.sh`
+- Execute the script with: `./symlink.sh` 
+- Finally `source ~/.bashrc` to reload your shell.
 
 # hack away
 Feel free to poke around and use what bits you like. :)
