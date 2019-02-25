@@ -1,6 +1,6 @@
 # Open specified files in VS Code
 # "c ." will open the current directory in VS code
-alias c='open -a "Visual Studio Code"'
+alias vs='open -a "Visual Studio Code.app"'
 
 # Show/Hide hidden files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
