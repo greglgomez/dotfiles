@@ -7,8 +7,8 @@ source ~/.bash_aliases
 # Node/NPM
 export PATH="~/npm:$PATH"
 
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 # Grunt auto-completion
 eval "$(grunt --completion=bash)"
@@ -84,6 +84,3 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 # init z! (https://github.com/rupa/z)
 . ~/Code/apps/z/z.sh
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
